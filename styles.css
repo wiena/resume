@@ -115,7 +115,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} 
 
 .resume .resume_left ul li .data {
   color: #b1eaff;
@@ -222,27 +222,91 @@ a {
 }  
 
 
- @media(max-width: 500px){
+  @media(max-width: 500px){
 
- .resume_right p {
+    body {
+      font-size: 12px;
+      line-height: 18px;
+    }
 
-  font-size: 16px;
- }
+    .resume_right p {
 
-  .resume .resume_left {
-  width: 30%;
-  background: #0bb5f4;
-}
+    font-size: 11px;
+  }
+  
+  .resume {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 5px auto;
+  }
 
- .resume .resume_right {
-  width: 60%;
+    .resume .resume_left {
+    width: 40%;
+    background: #0bb5f4;
+  }
+
+  .resume .resume_right {
+    width: 60%;
+
+  }   
+
+  .resume .resume_left .data{
+
+    font-size: 10px;
+
+  } 
+
+  .resume .resume_left ul li .icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 15px;
+    font-size: 14px;
+    position: relative;
+  }
+
+   .resume .icon i {
+    font-size: 14px;
+
+  } 
+
+  .resume .resume_left .resume_skills ul li .skill_name {
+    font-size: 10px;
+  }
+
+  .semi-bold {
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .bold {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 10px;
+
+  }
+
+  .resume .resume_left .resume_profile {
+    height: 180px;
+  }
+
+
+  .resume .resume_left .resume_content {
+    padding: 0 15px;
+  }
+
+  .resume .resume_item {
+    padding: 20px 0;
+    border-bottom: 2px solid #b1eaff;
+  }
+
+  .resume .resume_right ul li .date {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
 
 } 
-
-.resume .resume_left .data{
-
-  font-size: 14px;
-
-}
-
-}
